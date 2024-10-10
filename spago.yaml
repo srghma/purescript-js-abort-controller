@@ -1,0 +1,23 @@
+package:
+  name: js-abort-controller
+  publish:
+    license: MIT
+    version: 1.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-js-abort-controller
+  dependencies:
+    - effect
+    - foreign
+    - maybe
+    - nullable
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
